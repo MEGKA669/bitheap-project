@@ -1,0 +1,1 @@
+[{"uid":"77b328dd5a96d009","name":"TestAuthentification()","time":{"start":1770808565802,"stop":1770808571205,"duration":5403},"status":"passed","severity":"normal"},{"uid":"46e3c0736fd9d412","name":"ajoutProduitPanier()","time":{"start":1770809703841,"stop":1770809706440,"duration":2599},"status":"failed","severity":"normal"}]

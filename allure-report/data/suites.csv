@@ -1,0 +1,3 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"Verification que l'utilisateur peut se connecter sur le Site Bitheap","5403","TestAuthentification()","","2026-02-11","passed","2026-02-11","","loginTest","loginTest","TestAuthentification"
+"tester l'ajout d'un produit au panier par un utilisateur authentifié","2599","ajoutProduitPanier()","","2026-02-11","failed","2026-02-11","","shopTest","shopTest","ajoutProduitPanier"
