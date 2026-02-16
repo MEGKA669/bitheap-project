@@ -78,6 +78,7 @@ public void utilisateur_doit_se_trouver_sur_le_site_Bitheap(){
     public void le_panier_est_mis_a_jour_avec_le_nouveau_article(){
     assertTrue(shopPage.nombreDeArticles());
     shopPage.PasserAuPaiement();
+    shopPage.arreterTest();
 }
 
 

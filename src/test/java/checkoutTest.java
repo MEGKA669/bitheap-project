@@ -5,14 +5,13 @@ import org.junit.jupiter.api.TestInstance;
 import automation.pages.CheckoutPage;
 import org.openqa.selenium.WebDriver;
 
-;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
 public class checkoutTest {
         shopTest shopTest;
         CheckoutPage checkoutPage;
-        WebDriver driver;
+//        WebDriver driver;
 @BeforeAll
     public void initialiseAndajoutProduit(){
 

@@ -98,6 +98,12 @@ public class ShopPage {
         goToPanier.click();
      }
 
+     public void arreterTest(){
+        if (DriverSingleton.getDriver()!= null){
+            DriverSingleton.getDriver().quit();
+        }
+     }
+
 
 
 

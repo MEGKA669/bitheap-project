@@ -1,0 +1,10 @@
+variables:
+  JAVA_HOME: C:\Users\aitid\.jdks\openjdk-25.0.1
+
+automationJob:
+  stage: build
+  tags:
+    - bitheap-project
+  script:
+    - mvn compile
+    - mvn package
