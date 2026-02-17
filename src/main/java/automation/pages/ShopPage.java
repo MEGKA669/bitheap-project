@@ -78,7 +78,7 @@ public class ShopPage {
         wait.until(ExpectedConditions.visibilityOf(nombreArticle));
         //wait.until(ExpectedConditions.textToBePresentInElement(nombreArticle, constantes.PANIER_QUANTITE));
         if (nombreArticle.isDisplayed()) {
-            System.out.println("Panier mis a jour :" + nombreArticle.getText() + " articles");
+            System.out.println("Panier mis a jour avec un produit :" + nombreArticle.getText() + " articles");
         } else {
             System.out.println("PANIER non mis a jour");
             //byte[] screenshot = Utils.screenShot();
